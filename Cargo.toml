@@ -5,7 +5,7 @@ edition = "2024"
 
 [dependencies]
 clap = { version = "4.6.6", features = ["derive"] }
-image = {version = "0.25.10", default-features = false, features = ["jpeg", "png", "webp"]}
+image = {version = "0.25.10", default-features = false, features = ["jpeg", "png", "webp", "tiff", "avif"]}
 lab = "0.11.0"
 
 [profile.release]
